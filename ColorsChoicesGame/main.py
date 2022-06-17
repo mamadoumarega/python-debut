@@ -55,8 +55,8 @@ while True:
     # condition of winning
     if choice_col == computer_choice_col:
         player_score += 1
-        print("player_score: "+str(player_score))
-        print("computer_score: "+str(computer_score))
+        print("player_score: " + str(player_score))
+        print("computer_score: " + str(computer_score))
     else:
         computer_score += 1
 
@@ -65,4 +65,3 @@ while True:
 
     if answer == 'n' or answer == 'N':
         break
-
